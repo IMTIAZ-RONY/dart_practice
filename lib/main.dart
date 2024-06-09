@@ -8,11 +8,6 @@ String c= "My";
 String d= "Daughter";
 /// String literal
 String e ="I" "Love""My" "Daughter";
-
-///5th Step
-List <String>f=["I",'Love','My','Mother'];
-print(f.join());
-
 ///1st Step
 print(a+b+c+d) ;
 ///2nd Step
@@ -21,5 +16,7 @@ print("$a$b$c$d");
 print("only${a+b+c+d}");
 ///4th Step
 print(e);
-
+///5th Step
+List <String>f=["I",'Love','My','Mother'];
+print(f.join());
 }
